@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_prices",
+  "info": {
+    "name": "sectionPrice",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

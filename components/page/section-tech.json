@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "name": "sectionTech",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconTech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.icon-tech",
+      "required": true,
+      "min": 5
+    }
+  }
+}

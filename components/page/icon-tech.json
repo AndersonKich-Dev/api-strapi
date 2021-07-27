@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_icon_teches",
+  "info": {
+    "name": "iconTech",
+    "icon": "icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
